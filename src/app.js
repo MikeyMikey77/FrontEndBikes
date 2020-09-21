@@ -46,7 +46,6 @@ class MainCanvas extends React.Component {
                 // console.log("SERVER ANSWER " + res);
                 this.setState({ rentedBikes: res })
                 // console.log(this.state.rentedBikes)
-                console.log(res);
             });
     }
 
